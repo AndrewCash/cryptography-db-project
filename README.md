@@ -9,7 +9,7 @@ CONTAINER ID   IMAGE     ...
 ```
 Launch docker container
 ```
-$ docker-compose -f mysql.yml up
+$ docker-compose -f code/mysql.yml up
 ```
 
 ### defaults
