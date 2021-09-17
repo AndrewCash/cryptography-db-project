@@ -1,6 +1,10 @@
-# cryptography-db-project
+# CPSC 4376 DB
 
-UALR Cryptography DB Project
+start a simple msqyl server
 
-docker-compose -f mysql.yml -t db-project
+
+```
+docker-compose -f mysql.yml -t db-project 
+
 docker exec -it dp-project /bin/bash
+```
