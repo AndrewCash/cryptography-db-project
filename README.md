@@ -30,15 +30,18 @@ https://localhost:8080
 
 #### Docker Desktop
 
-Find the container currently running
+Find the container currently running.
 ![find container running](https://imgur.com/xXewlc3.png)
 
-Press the connect with cli button
-![connect with cli](https://imgur.com/tv6B8zD.png)
+Press the connect with cli button to connect to container.
+![connect with container](https://imgur.com/tv6B8zD.png)
+
+Connect to the running db process.
 
 ```
 root@runningID$ mssql --password
 ```
+![connect to db](https://imgur.com/meBu8ht.png)
 
 #### bash
 ```
