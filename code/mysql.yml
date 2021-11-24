@@ -9,6 +9,11 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+      MYSQL_USER: bob
+      MYSQL_PASSWORD: saget
+
+    ports:
+      - 8081:3306
 
   adminer:
     image: adminer
